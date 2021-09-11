@@ -1,31 +1,38 @@
-# magento2-product-stock-manager v1.0.0
-## Magento 2 Extension
+# Magento2 Product Stock Manager
 
-### Free Magento 2 extension To keep a record of product stock
+Free Magento 2 extension To keep a record of product stock
 
-
-## Features:
-1. Admin can decide and give discount to particular orders while creation
-2. Discount can be either fixed or percentage of grand total
-3. Sales order grid has separate column and range filter for it
-4. Applied Discount would be shown on everywhere frontend, admin, PDFs, sales emails etc.
-
-___________________________________________________________________________________________________
-
-### Screenshots:
 <img src="https://i.ibb.co/QJvqQyS/Magento2-stock-manager.png" alt="Magento2-stock-manager" title="Magelumen Stock Manager Module" border="0">
 
-___________________________________________________________________________________________________
+## Features:
 
-### Want to know more?
+1. Extension To Keep records of Product Stock
+2. Admin can check Report section as well.
+3. In sales view order, Admin can assign product in order.
+4. Looks like core functionality of Magento (at backend as well as frontend)
+5. Unencrypted code for easy customization
 
-## Visit <a href='https://xmagestore.com/' target='_blank'>https://xmagestore.com/</a>
-___________________________________________________________________________________________________
-## Need any help with installation and setup?
+# Installation Instruction
 
-## Visit <a href='http://wiki.xmagestore.com/' target='_blank'>http://wiki.xmagestore.com/</a>
+* Copy the content of the repo to the <b>app/code/Adtones/Stock/</b> folder
+* Run command:
+<b>php bin/magento setup:upgrade</b>
+* Run Command:
+<b>php bin/magento setup:static-content:deploy</b>
+* Now Flush Cache: <b>php bin/magento cache:flush</b>
 
-___________________________________________________________________________________________________
+# Contribution
+
+Want to contribute to this extension? The quickest way is to <a href="https://help.github.com/articles/about-pull-requests/">open a pull request</a> on GitHub.
+
+# Screenshots & Support
+
+If you encounter any problems or bugs, please <a href="https://github.com/mageprince/magento2-buynow/issues">open an issue</a> on GitHub.
+
+<b>Admin Sales Order View Page</b>
+
+<!-- <img src="https://image.ibb.co/fGJvgm/add_to_cart.png" alt="Adding-SS" title="Screenshot 1"> -->
+
 ## Prerequisites
 
 ### Use the following table to verify you have the correct prerequisites to install this Extension.
@@ -54,6 +61,6 @@ ________________________________________________________________________________
 </tbody>
 </table>
 
-___________________________________________________________________________________________________
-### Feedback and Support <a href="mailto:support@xmagestore.com">support@xmagestore.com</a>
+### Feedback and Support 
 
+<a href="mailto:khannadeem243@gmail.com">khannadeem243@gmail.com</a>
